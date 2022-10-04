@@ -53,6 +53,22 @@
     )
   )
 
+  (sheet (at 154.94 38.1) (size 13.97 11.43) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d06b1486-3743-4568-bb86-22a0f801ae16)
+    (property "Sheet name" "LDR-module" (id 0) (at 154.94 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "LDR-module.kicad_sch" (id 1) (at 154.94 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "DOUT" output (at 154.94 40.64 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b22bcb7f-d2a4-4962-b657-a57d182859e0)
+    )
+  )
+
   (sheet (at 38.1 38.1) (size 38.1 38.1) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -125,6 +141,7 @@
     (path "/" (page "1"))
     (path "/e1535036-5d36-405f-bb86-3819621c4f23" (page "2"))
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8" (page "3"))
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16" (page "4"))
   )
 
   (symbol_instances
@@ -133,6 +150,12 @@
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/202cdca0-43fc-46e0-ab7a-275f0042e2fa"
       (reference "#PWR?") (unit 1) (value "~") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/4013d787-82a8-4caa-b357-a11ef5ca8bab"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/5217286f-63fa-4738-8dbe-0c3a62478e5c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/5589c2d1-2314-45c5-8084-3b63ebe19fa8"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -170,6 +193,15 @@
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/b33365c2-a488-4a72-841c-399554d1dfe3"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/b99111ad-6e28-472f-a7c1-e59a2424250c"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/baccec78-2091-407b-9f3d-6da8242e6b6b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/c9d628d3-72db-42f7-81c2-74a7c7ce8b2e"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d8200fb9-692f-4a11-83a1-7fda17199f17"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -197,11 +229,23 @@
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/88b4c3b5-cdba-451d-bfa9-6540b576b863"
       (reference "C4") (unit 1) (value "0.1u") (footprint "")
     )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/eb96f5b1-755c-4d95-a6fd-44e7416fb461"
+      (reference "C?") (unit 1) (value "104") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/ec241fc1-c884-4631-85b0-6ac2882abcec"
+      (reference "C?") (unit 1) (value "104") (footprint "")
+    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/ba412eb5-13bb-4cbc-b2d7-7f2ddb11dbbd"
       (reference "D1") (unit 1) (value "LED_ON") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/fdbec5e1-e74d-42d1-a15f-9870270449de"
       (reference "D2") (unit 1) (value "LED_HW") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/9ce37f5d-4ced-4e2d-a6bd-e720d1623000"
+      (reference "D?") (unit 1) (value "Detection LED") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/eff1643e-1700-4d04-9e5b-906bea3f1134"
+      (reference "D?") (unit 1) (value "Power LED") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d7ff11f1-9ba3-48a8-b392-f827773e8cf2"
       (reference "IC1") (unit 1) (value "ESP32-WROVER-B__8MB_") (footprint "ESP32WROVERB8MB")
@@ -254,6 +298,21 @@
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/dd1c3ded-856b-46b6-bdb5-dc7b0f1c88ae"
       (reference "R13") (unit 1) (value "~") (footprint "")
     )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/22d8495c-c8d6-4d86-8447-7c0d31417765"
+      (reference "R?") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/7ab9cb54-b83f-4986-88b1-5139b9e39300"
+      (reference "R?") (unit 1) (value "1K") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/9c6fcf17-3cde-4100-85b2-e301753b471d"
+      (reference "R?") (unit 1) (value "LDR07") (footprint "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/b27e07ef-9631-4d9f-912c-6292d57b8593"
+      (reference "R?") (unit 1) (value "10K") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/88d00d85-45cc-430a-a61f-4b7ae6be4610"
+      (reference "RV?") (unit 1) (value "10K") (footprint "")
+    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/98b4f046-6768-4ae2-81aa-dbcfff0dac71"
       (reference "SW1") (unit 1) (value "SW_Boot") (footprint "")
     )
@@ -262,6 +321,15 @@
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/8f700339-c9dd-4565-bc82-3d26ce7b2743"
       (reference "U1") (unit 1) (value "~") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/4186dce2-6fa5-4e12-a42f-3f810169d21c"
+      (reference "U?") (unit 1) (value "LM358") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/71f03a5b-85ab-4dca-8c4e-871d91590e0f"
+      (reference "U?") (unit 2) (value "LM358") (footprint "")
+    )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/880375a2-ae6e-4fc5-b9c3-185e23ee3394"
+      (reference "U?") (unit 3) (value "LM358") (footprint "")
     )
   )
 )
