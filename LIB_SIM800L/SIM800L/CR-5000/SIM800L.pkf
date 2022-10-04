@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SIM800L"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SIM800L")
+        (spec "default")
+    )
+)

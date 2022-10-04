@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "NEO-M8U"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "NEO-M8U")
+        (spec "default")
+    )
+)

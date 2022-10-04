@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ESP32-WROVER-B__8MB_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-04-23-12:23:27)
+    (mountForm default
+        (footprintRef "ESP32WROVERB8MB")
+        (spec "System")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESP32_WROVER_B__8MB_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Espressif Systems", "ESP32-WROVER-B (8MB)" (!) = "", "ESP32WROVERB8MB", "Other", "356-ESP32-WRO-B(8MB)", "", "", "", "", "", "WiFi Modules (802.11) SMD Module M213DH6464PH3Q0, ESP32-D0WD, 64Mbits PSRAM, 8MB SPI flash, PCB Antenna", "https://eu.mouser.com/datasheet/2/891/esp32-wrover-b_datasheet_en-1384674.pdf", "3.4 mm"
+END_PART
+
+END.

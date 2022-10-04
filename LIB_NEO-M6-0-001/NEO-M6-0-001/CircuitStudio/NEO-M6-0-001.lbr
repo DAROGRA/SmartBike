@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/1462808/947562/2.49/24/4/Integrated Circuit/-->
+<!DOCTYPE curve SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;u-blox 6 GPS Modules&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="NEO-M8U">
+<description>&lt;b&gt;NEO-M8U&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="6" y="-7" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="2" x="6" y="-5.9" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="3" x="6" y="-4.8" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="4" x="6" y="-3.7" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="5" x="6" y="-2.6" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="6" x="6" y="-1.5" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="7" x="6" y="-0.4" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="8" x="6" y="2.6" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="9" x="6" y="3.7" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="10" x="6" y="4.8" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="11" x="6" y="5.9" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="12" x="6" y="7" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="13" x="-6" y="7" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="14" x="-6" y="5.9" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="15" x="-6" y="4.8" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="16" x="-6" y="3.7" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="17" x="-6" y="2.6" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="18" x="-6" y="-0.4" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="19" x="-6" y="-1.5" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="20" x="-6" y="-2.6" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="21" x="-6" y="-3.7" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="22" x="-6" y="-4.8" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="23" x="-6" y="-5.9" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<smd name="24" x="-6" y="-7" dx="1.8" dy="0.8" layer="1" rot="R0"/>
+<text x="-0.339" y="0.045" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="-0.339" y="0.045" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-6.1" y1="8" x2="6.1" y2="8" width="0.2" layer="51"/>
+<wire x1="6.1" y1="8" x2="6.1" y2="-8" width="0.2" layer="51"/>
+<wire x1="6.1" y1="-8" x2="-6.1" y2="-8" width="0.2" layer="51"/>
+<wire x1="-6.1" y1="-8" x2="-6.1" y2="8" width="0.2" layer="51"/>
+<wire x1="-6.1" y1="-8" x2="6.1" y2="-8" width="0.2" layer="21"/>
+<wire x1="6.1" y1="8" x2="-6.1" y2="8" width="0.2" layer="21"/>
+<circle x="7.514" y="-6.988" radius="0.062" width="0.2" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NEO-M6-0-001">
+<wire x1="5.08" y1="2.54" x2="43.18" y2="2.54" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-30.48" x2="43.18" y2="2.54" width="0.254" layer="94"/>
+<wire x1="43.18" y1="-30.48" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<text x="44.45" y="7.62" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="44.45" y="5.08" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="RESERVED_1" x="48.26" y="-27.94" length="middle" direction="io" rot="R180"/>
+<pin name="SS_N" x="48.26" y="-25.4" length="middle" direction="io" rot="R180"/>
+<pin name="TIMEPULSE" x="48.26" y="-22.86" length="middle" direction="io" rot="R180"/>
+<pin name="EXTINT0" x="48.26" y="-20.32" length="middle" direction="io" rot="R180"/>
+<pin name="USB_DM" x="48.26" y="-17.78" length="middle" direction="io" rot="R180"/>
+<pin name="USB_DP" x="48.26" y="-15.24" length="middle" direction="io" rot="R180"/>
+<pin name="VDDUSB" x="48.26" y="-12.7" length="middle" direction="io" rot="R180"/>
+<pin name="RESERVED_2" x="48.26" y="-10.16" length="middle" direction="io" rot="R180"/>
+<pin name="VCC_RF" x="48.26" y="-7.62" length="middle" direction="io" rot="R180"/>
+<pin name="GND_1" x="48.26" y="-5.08" length="middle" direction="io" rot="R180"/>
+<pin name="RF_IN" x="48.26" y="-2.54" length="middle" direction="io" rot="R180"/>
+<pin name="GND_2" x="48.26" y="0" length="middle" direction="io" rot="R180"/>
+<pin name="GND_3" x="0" y="0" length="middle" direction="io" rot="R0"/>
+<pin name="MOSI/CFG_COM0" x="0" y="-2.54" length="middle" direction="io" rot="R0"/>
+<pin name="MISO/CFG_COM1" x="0" y="-5.08" length="middle" direction="io" rot="R0"/>
+<pin name="CFG_GPS0/SCK" x="0" y="-7.62" length="middle" direction="io" rot="R0"/>
+<pin name="RESERVED_3" x="0" y="-10.16" length="middle" direction="io" rot="R0"/>
+<pin name="SDA2" x="0" y="-12.7" length="middle" direction="io" rot="R0"/>
+<pin name="SCL2" x="0" y="-15.24" length="middle" direction="io" rot="R0"/>
+<pin name="TXD1" x="0" y="-17.78" length="middle" direction="io" rot="R0"/>
+<pin name="RXD1" x="0" y="-20.32" length="middle" direction="io" rot="R0"/>
+<pin name="V_BCKP" x="0" y="-22.86" length="middle" direction="io" rot="R0"/>
+<pin name="VCC" x="0" y="-25.4" length="middle" direction="io" rot="R0"/>
+<pin name="GND_4" x="0" y="-27.94" length="middle" direction="io" rot="R0"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NEO-M6-0-001" prefix="IC">
+<description>&lt;b&gt;u-blox 6 GPS Modules&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_(GPS.G6-HW-09005).pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NEO-M6-0-001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NEO-M8U">
+<connects>
+<connect gate="G$1" pin="RESERVED_1" pad="1"/>
+<connect gate="G$1" pin="SS_N" pad="2"/>
+<connect gate="G$1" pin="TIMEPULSE" pad="3"/>
+<connect gate="G$1" pin="EXTINT0" pad="4"/>
+<connect gate="G$1" pin="USB_DM" pad="5"/>
+<connect gate="G$1" pin="USB_DP" pad="6"/>
+<connect gate="G$1" pin="VDDUSB" pad="7"/>
+<connect gate="G$1" pin="RESERVED_2" pad="8"/>
+<connect gate="G$1" pin="VCC_RF" pad="9"/>
+<connect gate="G$1" pin="GND_1" pad="10"/>
+<connect gate="G$1" pin="RF_IN" pad="11"/>
+<connect gate="G$1" pin="GND_2" pad="12"/>
+<connect gate="G$1" pin="GND_3" pad="13"/>
+<connect gate="G$1" pin="MOSI/CFG_COM0" pad="14"/>
+<connect gate="G$1" pin="MISO/CFG_COM1" pad="15"/>
+<connect gate="G$1" pin="CFG_GPS0/SCK" pad="16"/>
+<connect gate="G$1" pin="RESERVED_3" pad="17"/>
+<connect gate="G$1" pin="SDA2" pad="18"/>
+<connect gate="G$1" pin="SCL2" pad="19"/>
+<connect gate="G$1" pin="TXD1" pad="20"/>
+<connect gate="G$1" pin="RXD1" pad="21"/>
+<connect gate="G$1" pin="V_BCKP" pad="22"/>
+<connect gate="G$1" pin="VCC" pad="23"/>
+<connect gate="G$1" pin="GND_4" pad="24"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Manufacturer_Name" value="U-Blox" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="NEO-M6-0-001" constant="no"/>
+<attribute name="Mouser_Part_Number" value="" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="" constant="no"/>
+<attribute name="Arrow_Part_Number" value="" constant="no"/>
+<attribute name="Arrow_Price-Stock" value="" constant="no"/>
+<attribute name="Mouser_Testing_Part_Number" value="" constant="no"/>
+<attribute name="Mouser_Testing_Price-Stock" value="" constant="no"/>
+<attribute name="Description" value="u-blox 6 GPS Modules" constant="no"/>
+<attribute name="Height" value="mm" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

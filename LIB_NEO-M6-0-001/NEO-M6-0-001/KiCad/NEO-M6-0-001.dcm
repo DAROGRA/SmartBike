@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NEO-M6-0-001
+D u-blox 6 GPS Modules
+K
+F https://www.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_(GPS.G6-HW-09005).pdf
+$ENDCMP
+#
+#End Doc Library

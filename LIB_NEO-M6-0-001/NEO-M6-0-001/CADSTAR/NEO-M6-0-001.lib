@@ -1,0 +1,19 @@
+.NEO-M6-0-001 :1 ;u-blox 6 GPS Modules
+NEO-M8U
+*STM IC
+*NGS
+*PLB 1="RESERVED_1" 2="SS_N" 3="TIMEPULSE" 4="EXTINT0" 5="USB_DM" 6="USB_DP" 7="VDDUSB" 8="RESERVED_2" 9="VCC_RF" 10="GND_1" 11="RF_IN" 12="GND_2" 13="GND_3" 14="MOSI/CFG_COM0" 15="MISO/CFG_COM1" 16="CFG_GPS0/SCK" 17="RESERVED_3" 18="SDA2" 19="SCL2" 20="TXD1" 21="RXD1" 22="V_BCKP" 23="VCC" 24="GND_4"
+*MXP 24
+*DFN NEO-M6-0-001
+~!Manufacturer_Name (U-Blox)
+~!Manufacturer_Part_Number (NEO-M6-0-001)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://www.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_(GPS.G6-HW-09005).pdf)
+~!Height (-)
+NEO-M6-0-001
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 
