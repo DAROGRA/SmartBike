@@ -1,0 +1,9 @@
+Manufacturer=U-Blox
+PartNumber=NEO-M6-0-001
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=24
+Version=1.3
+Released=2018-09-26 16:31:50
+Downloaded=2022-09-13 06:10:08
+3D=N

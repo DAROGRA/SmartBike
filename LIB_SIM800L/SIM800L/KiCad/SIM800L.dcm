@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIM800L
+D Quad-band GSM/GPRS solution in a LGA type package
+K
+F http://img.filipeflop.com/files/download/Datasheet_SIM800L.pdf
+$ENDCMP
+#
+#End Doc Library

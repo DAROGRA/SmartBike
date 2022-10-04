@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NEO-M6-0-001"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-07-03-10:35:23)
+    (mountForm default
+        (footprintRef "NEO-M8U")
+        (spec "System")
+    )
+)

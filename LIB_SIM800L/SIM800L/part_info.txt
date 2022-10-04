@@ -1,0 +1,9 @@
+Manufacturer=SIMCOM
+PartNumber=SIM800L
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=88
+Version=1.4
+Released=2018-03-16 11:27:46
+Downloaded=2022-09-13 06:27:47
+3D=Y

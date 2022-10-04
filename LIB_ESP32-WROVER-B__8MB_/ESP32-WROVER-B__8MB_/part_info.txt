@@ -1,0 +1,9 @@
+Manufacturer=Espressif Systems
+PartNumber=ESP32-WROVER-B (8MB)
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=47
+Version=1.2
+Released=2020-04-23 12:23:27
+Downloaded=2022-09-13 06:24:37
+3D=Y
