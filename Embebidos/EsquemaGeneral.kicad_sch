@@ -535,6 +535,12 @@
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/711812cf-38c2-495f-bdaa-20c775bc958a"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/ab13580e-0722-4b91-92ef-955faf55cfba"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/ee00841c-e84c-4d39-946b-c018fc0c7455"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d81047d0-6c1b-4589-b37f-eb5534216b82"
       (reference "C1") (unit 1) (value "22uF") (footprint "")
     )
@@ -604,6 +610,9 @@
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d7ff11f1-9ba3-48a8-b392-f827773e8cf2"
       (reference "IC1") (unit 1) (value "ESP32-WROVER-B__8MB_") (footprint "ESP32WROVERB8MB")
     )
+    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/dff67cf1-832e-4417-a795-ef2605f6ca07"
+      (reference "IC?") (unit 1) (value "DMP3056LSD-13") (footprint "SOIC127P600X175-8N")
+    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/039c1b35-8bab-440d-b465-99669bba6dd0"
       (reference "J1") (unit 1) (value "Conn_01x08") (footprint "")
     )
@@ -654,12 +663,6 @@
     )
     (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/82d6cc08-4f1f-47c2-8f65-ccda8c835038"
       (reference "Q3") (unit 1) (value "Q_PMOS_DSG") (footprint "")
-    )
-    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/00000000-0000-0000-0000-0000633433b7"
-      (reference "Q4") (unit 1) (value "Q_PMOS_Leds5v") (footprint "")
-    )
-    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/00000000-0000-0000-0000-00006334b99e"
-      (reference "Q5") (unit 1) (value "Q_PMOS_Infrarrojo") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/55552316-eba6-4d9e-a3f8-1729b8722f94"
       (reference "R1") (unit 1) (value "~") (footprint "")
@@ -747,6 +750,18 @@
     )
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/00000000-0000-0000-0000-00006332cb14"
       (reference "R25") (unit 1) (value "470") (footprint "")
+    )
+    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/6370b9ce-f8a0-4b74-ab72-8a50382516ab"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/a8fe6fe5-9ae2-430b-82f4-2ee22c319799"
+      (reference "R?") (unit 1) (value "100k") (footprint "")
+    )
+    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/b000cd4a-fd09-4228-9d00-515c18aaa44e"
+      (reference "R?") (unit 1) (value "1k") (footprint "")
+    )
+    (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/b75cfedb-efa8-4395-8848-474683ec69e9"
+      (reference "R?") (unit 1) (value "100k") (footprint "")
     )
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/88d00d85-45cc-430a-a61f-4b7ae6be4610"
       (reference "RV1") (unit 1) (value "10K") (footprint "")
