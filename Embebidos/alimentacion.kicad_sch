@@ -571,7 +571,6 @@
     )
   )
 
-
   (junction (at 153.035 142.24) (diameter 0) (color 0 0 0 0)
     (uuid 01637482-9c27-41dc-8a34-f5e5e56c9a09)
   )
@@ -1322,7 +1321,7 @@
     (property "Reference" "#PWR030" (id 0) (at 135.89 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 135.89 68.58 0))
+    (property "Value" "+5V" (id 1) (at 135.89 68.58 0))
     (property "Footprint" "" (id 2) (at 135.89 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1394,7 +1393,7 @@
     (property "Reference" "#PWR023" (id 0) (at 33.02 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "" (id 1) (at 33.02 58.42 0))
+    (property "Value" "+5V" (id 1) (at 33.02 58.42 0))
     (property "Footprint" "" (id 2) (at 33.02 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
