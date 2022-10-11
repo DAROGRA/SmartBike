@@ -8,7 +8,6 @@
   )
 
 
-
   (wire (pts (xy 76.2 92.71) (xy 134.62 92.71))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 010b85c5-c3da-437e-89fc-26cc350c024f)
@@ -527,6 +526,15 @@
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/b029e962-2343-4662-b431-ffc97673b67a"
       (reference "#PWR038") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/358fb70d-c010-42a9-94ae-410f3feb344f"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/68b65370-572f-47df-9f79-f2e3b21daa6c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/711812cf-38c2-495f-bdaa-20c775bc958a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d81047d0-6c1b-4589-b37f-eb5534216b82"
       (reference "C1") (unit 1) (value "22uF") (footprint "")
     )
@@ -596,8 +604,14 @@
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d7ff11f1-9ba3-48a8-b392-f827773e8cf2"
       (reference "IC1") (unit 1) (value "ESP32-WROVER-B__8MB_") (footprint "ESP32WROVERB8MB")
     )
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/039c1b35-8bab-440d-b465-99669bba6dd0"
+      (reference "J1") (unit 1) (value "Conn_01x08") (footprint "")
+    )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/11991380-bb17-440d-afe9-cc63c353105e"
       (reference "J1") (unit 1) (value "~") (footprint "")
+    )
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/10555b24-1255-4ef4-9aa0-c92a5bc73b04"
+      (reference "J2") (unit 1) (value "Conn_01x05") (footprint "")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/d8609417-ed01-4857-9622-08c7dd58c715"
       (reference "J2") (unit 1) (value "Conn_01x02_Male") (footprint "")
