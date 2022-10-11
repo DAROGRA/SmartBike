@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "KiCad")(type "KiCad")(uri "C:/Users/unida/Desktop/componenteskicad/LIB_SIM800L/SIM800L/KiCad")(options "")(descr ""))
+  (lib (name "FDT424P")(type "KiCad")(uri "${KIPRJMOD}/Libs/LIB_FDT434P/FDT434P/KiCad")(options "")(descr ""))
+  (lib (name "DMP3056LSD")(type "KiCad")(uri "${KIPRJMOD}/Libs/LIB_DMP3056LSD-13/DMP3056LSD-13/KiCad")(options "")(descr ""))
 )
