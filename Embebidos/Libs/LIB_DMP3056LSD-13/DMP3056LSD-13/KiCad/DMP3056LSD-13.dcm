@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP3056LSD-13
+D DMP3056LSD-13 Dual P-Channel MOSFET, 5.8 A, 30 V, 8-Pin SOP Diodes Inc
+K
+F https://www.diodes.com/assets/Datasheets/ds31420.pdf
+$ENDCMP
+#
+#End Doc Library

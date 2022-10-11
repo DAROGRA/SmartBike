@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FDT434P'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_TESTING_PART_NUMBER", "MOUSER_TESTING_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "FDT434P" (!) = "", "SOT230P700X180-4N", "SOT223 (3-Pin)", "512-FDT434P", "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDT434P?qs=FOlmdCx%252BAA0g7R7ehvwk%2FA%3D%3D", "FDT434P", "https://www.arrow.com/en/products/fdt434p/on-semiconductor", "", "", "FDT434P, P-channel MOSFET Transistor 6 A 20 V, 4-Pin SOT-223", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/3722b20eb3708cce3e419f4777b084b5.pdf", "1.8 mm"
+END_PART
+
+END.

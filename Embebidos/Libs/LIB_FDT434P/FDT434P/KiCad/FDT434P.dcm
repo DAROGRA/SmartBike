@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDT434P
+D FDT434P, P-channel MOSFET Transistor 6 A 20 V, 4-Pin SOT-223
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/3722b20eb3708cce3e419f4777b084b5.pdf
+$ENDCMP
+#
+#End Doc Library

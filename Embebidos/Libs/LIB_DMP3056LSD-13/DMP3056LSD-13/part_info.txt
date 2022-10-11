@@ -1,0 +1,9 @@
+Manufacturer=Diodes Inc.
+PartNumber=DMP3056LSD-13
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2019-07-04 10:12:49
+Downloaded=2022-10-11 03:33:12
+3D=Y

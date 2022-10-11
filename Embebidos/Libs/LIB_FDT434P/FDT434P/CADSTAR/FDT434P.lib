@@ -1,0 +1,20 @@
+.FDT434P :1 ;FDT434P, P-channel MOSFET Transistor 6 A 20 V, 4-Pin SOT-223
+SOT230P700X180-4N
+*STM IC
+*NGS
+*PLB 1="G" 2="D_1" 3="S" 4="D_2"
+*MXP 4
+*DFN FDT434P
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (FDT434P)
+~!Mouser Part Number (512-FDT434P)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDT434P?qs=FOlmdCx%252BAA0g7R7ehvwk%2FA%3D%3D)
+~!Arrow Part Number (FDT434P)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fdt434p/on-semiconductor)
+~!Mouser Testing Part Number (-)
+~!Mouser Testing Price/Stock (-)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/3722b20eb3708cce3e419f4777b084b5.pdf)
+~!Height (1.8mm)
+~!3D_Model (FDT434P)
+FDT434P
+1.1!U 2.1!U 3.1!U 4.1!U 

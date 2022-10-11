@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DMP3056LSD-13
+#/263687/956206/2.49/8/3/Integrated Circuit
+DEF DMP3056LSD-13 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "DMP3056LSD-13" 850 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 850 100 50 H I L CNN
+F3 "https://www.diodes.com/assets/Datasheets/ds31420.pdf" 850 0 50 H I L CNN
+F4 "DMP3056LSD-13 Dual P-Channel MOSFET, 5.8 A, 30 V, 8-Pin SOP Diodes Inc" 850 -100 50 H I L CNN "Description"
+F5 "1.75" 850 -200 50 H I L CNN "Height"
+F6 "Diodes Inc." 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DMP3056LSD-13" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-DMP3056LSD-13" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP3056LSD-13?qs=oUsD4qhOtFx5gfG3AxMf9Q%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "DMP3056LSD-13" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/dmp3056lsd-13/diodes-incorporated?region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 850 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 850 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X S1 1 0 0 200 R 50 50 0 0 P
+X G1 2 0 -100 200 R 50 50 0 0 P
+X S2 3 0 -200 200 R 50 50 0 0 P
+X G2 4 0 -300 200 R 50 50 0 0 P
+X D1_2 8 1000 0 200 L 50 50 0 0 P
+X D1_1 7 1000 -100 200 L 50 50 0 0 P
+X D2_2 6 1000 -200 200 L 50 50 0 0 P
+X D2_1 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
