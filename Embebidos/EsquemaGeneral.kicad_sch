@@ -665,7 +665,7 @@
       (reference "Q3") (unit 1) (value "Q_PMOS_DSG") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/55552316-eba6-4d9e-a3f8-1729b8722f94"
-      (reference "R1") (unit 1) (value "~") (footprint "")
+      (reference "R1") (unit 1) (value "470") (footprint "")
     )
     (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/2f33286e-7553-4442-acf0-23c61fcd6ab0"
       (reference "R1a1") (unit 1) (value "1K") (footprint "")

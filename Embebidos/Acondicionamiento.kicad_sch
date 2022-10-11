@@ -1432,7 +1432,7 @@
     (in_bom yes) (on_board yes)
     (uuid 55552316-eba6-4d9e-a3f8-1729b8722f94)
     (property "Reference" "R1" (id 0) (at 59.69 78.74 90))
-    (property "Value" "~" (id 1) (at 57.15 78.74 90))
+    (property "Value" "470" (id 1) (at 57.15 78.74 90))
     (property "Footprint" "" (id 2) (at 55.372 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
