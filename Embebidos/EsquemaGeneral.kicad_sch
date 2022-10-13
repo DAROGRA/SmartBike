@@ -649,6 +649,9 @@
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/dc0eeb87-50c3-4bf8-8a57-74b91ff83696"
       (reference "JP1") (unit 1) (value "Jumper_2_Bridged") (footprint "")
     )
+    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/b0bdf873-8d6b-4c32-becc-bcf093a97738"
+      (reference "JP?") (unit 1) (value "Jumper_2_Open") (footprint "")
+    )
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/00000000-0000-0000-0000-000063328a17"
       (reference "JT1") (unit 1) (value "8 LEDS RGB Derecha") (footprint "")
     )
