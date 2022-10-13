@@ -469,6 +469,9 @@
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/4013d787-82a8-4caa-b357-a11ef5ca8bab"
       (reference "#PWR019") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/c9d628d3-72db-42f7-81c2-74a7c7ce8b2e"
+      (reference "#PWR020") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/baccec78-2091-407b-9f3d-6da8242e6b6b"
       (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
@@ -537,9 +540,6 @@
     )
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/ee00841c-e84c-4d39-946b-c018fc0c7455"
       (reference "#PWR0105") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/d06b1486-3743-4568-bb86-22a0f801ae16/3337b2d9-faf6-4e92-aadb-1d3442873ed5"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d81047d0-6c1b-4589-b37f-eb5534216b82"
       (reference "C1") (unit 1) (value "22uF") (footprint "")
@@ -670,6 +670,12 @@
     (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/82d6cc08-4f1f-47c2-8f65-ccda8c835038"
       (reference "Q3") (unit 1) (value "Q_PMOS_DSG") (footprint "")
     )
+    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/22588249-082b-401e-a453-7668f24a5387"
+      (reference "Q32") (unit 1) (value "DMP3056LSDQ-13") (footprint "DMP3056LSD:SOIC127P600X175-8N")
+    )
+    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/e8a4214c-c21d-481c-abd5-868ac6c0ed3e"
+      (reference "Q32") (unit 2) (value "DMP3056LSDQ-13") (footprint "DMP3056LSD:SOIC127P600X175-8N")
+    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/55552316-eba6-4d9e-a3f8-1729b8722f94"
       (reference "R1") (unit 1) (value "470") (footprint "")
     )
@@ -790,14 +796,14 @@
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/880375a2-ae6e-4fc5-b9c3-185e23ee3394"
       (reference "U2") (unit 3) (value "LM358") (footprint "")
     )
-    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/a332eee4-8e5c-479e-9847-1890b457546d"
-      (reference "U3") (unit 1) (value "SPX3819M5-L-3-3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
-    )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/15d46b7e-438e-4017-936e-9a2fba6b1382"
       (reference "U4") (unit 1) (value "MIC29302WT") (footprint "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerEven_Lead3.8mm_Vertical")
     )
-    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/c52adfc4-f7f4-42f8-923e-2dbea160665b"
-      (reference "U5") (unit 1) (value "MIC5219-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/78472f2d-68f4-49c3-a4da-a2495939f54c"
+      (reference "U?") (unit 1) (value "MIC5219-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/c40f95ce-95c9-43c6-aef2-9d60b8f3da73"
+      (reference "U?") (unit 1) (value "SPX3819M5-L-3-3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
   )
 )
