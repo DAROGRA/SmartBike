@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "FDT424P")(type "KiCad")(uri "${KIPRJMOD}/Libs/LIB_FDT434P/FDT434P/KiCad")(options "")(descr ""))
   (lib (name "DMP3056LSD")(type "KiCad")(uri "${KIPRJMOD}/Libs/LIB_DMP3056LSD-13/DMP3056LSD-13/KiCad")(options "")(descr ""))
+  (lib (name "CP2104")(type "KiCad")(uri "${KIPRJMOD}/Libs/CP2104")(options "")(descr ""))
 )

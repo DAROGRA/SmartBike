@@ -8,6 +8,7 @@
   )
 
 
+
   (wire (pts (xy 219.71 96.52) (xy 219.71 119.38))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 02f44c98-ee31-4aa8-af52-f5fcd9dd5081)
@@ -669,18 +670,6 @@
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/d8609417-ed01-4857-9622-08c7dd58c715"
       (reference "J2") (unit 1) (value "Conn_01x02_Male") (footprint "")
     )
-    (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/8b2d9535-5db9-4e50-bbf5-feb5123e0c20"
-      (reference "J3") (unit 1) (value "Pantallas I2C") (footprint "")
-    )
-    (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/9db6f247-305e-491e-bcd8-6eef02e284d4"
-      (reference "J4") (unit 1) (value "Luz_delantera") (footprint "")
-    )
-    (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/79f65d91-08d0-4312-bad1-742e9daf16c7"
-      (reference "J5") (unit 1) (value "Joystick") (footprint "")
-    )
-    (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/00000000-0000-0000-0000-0000633b94c0"
-      (reference "J6") (unit 1) (value "RJ45") (footprint "")
-    )
     (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/00000000-0000-0000-0000-0000633bb328"
       (reference "J7") (unit 1) (value "RJ45") (footprint "")
     )
@@ -743,9 +732,6 @@
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/20dde1b4-8ecd-4850-8e47-50377ede777b"
       (reference "R4") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/677c8cb0-4043-4716-a61b-7048dd3718d0"
-      (reference "R4a1") (unit 1) (value "1k") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/39e1d386-3e39-4649-af1e-972a829781f0"
       (reference "R5") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
