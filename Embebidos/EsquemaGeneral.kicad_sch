@@ -619,7 +619,7 @@
       (reference "C9") (unit 1) (value "104") (footprint "")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/c1211a09-1b08-468f-8928-5e411f9c2caa"
-      (reference "C10") (unit 1) (value "10u") (footprint "")
+      (reference "C10") (unit 1) (value "10n") (footprint "")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/d13e6b54-b8c7-4c32-bd8f-a5ab92c37b48"
       (reference "C11") (unit 1) (value "100u") (footprint "")
@@ -628,22 +628,25 @@
       (reference "C12") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/e54509d2-25c2-432b-896c-deb582dce5b9"
-      (reference "C13") (unit 1) (value "1u") (footprint "")
+      (reference "C13") (unit 1) (value "4.7u") (footprint "")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/a03c2b30-48fe-4d16-a726-60177bf460a2"
       (reference "C14") (unit 1) (value "330u") (footprint "")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/0d1f3cdb-ddc7-432c-81b7-220d04c08ea6"
-      (reference "C15") (unit 1) (value "10u") (footprint "")
+      (reference "C15") (unit 1) (value "1u") (footprint "")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/55e8fdb6-200e-4de9-ba1b-3a737aaa80ec"
       (reference "C16") (unit 1) (value "100n") (footprint "")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/e4d3e0a4-6f39-4d37-bd7d-1d39c8cd7a3a"
-      (reference "C17") (unit 1) (value "10u") (footprint "")
+      (reference "C17") (unit 1) (value "470p") (footprint "")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/66650572-4c7e-4c10-b9e5-653731ee077b"
-      (reference "C18") (unit 1) (value "0.1u") (footprint "")
+      (reference "C18") (unit 1) (value "2.2u") (footprint "")
+    )
+    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/490026ac-2b0b-40f6-86af-e4570913d7bb"
+      (reference "C111") (unit 1) (value "1u") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/ba412eb5-13bb-4cbc-b2d7-7f2ddb11dbbd"
       (reference "D1") (unit 1) (value "LED_ON") (footprint "")
