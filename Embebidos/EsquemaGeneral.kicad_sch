@@ -582,7 +582,7 @@
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/bea0f267-b151-46aa-b051-25b0f1216c7a"
       (reference "#PWR043") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/d8074f6a-2e43-4231-b910-4007aa9b8983"
+    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/1244af27-4b3c-42b8-85ab-98db9fb77044"
       (reference "#PWR044") (unit 1) (value "GND") (footprint "")
     )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/ae7fbaad-b049-490b-ba63-d466ca9a74c1"
@@ -604,13 +604,13 @@
       (reference "C4") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/d3842c7f-088a-42ca-8559-a68caf720c9c"
-      (reference "C5") (unit 1) (value "10u") (footprint "")
+      (reference "C5") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/851f6cf8-c68d-416b-b297-d20ac156e854"
-      (reference "C6") (unit 1) (value "100n") (footprint "")
+      (reference "C6") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/e99cae2e-171e-4826-a52b-485b24fb3741"
-      (reference "C7") (unit 1) (value "4.7u") (footprint "")
+      (reference "C7") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/eb96f5b1-755c-4d95-a6fd-44e7416fb461"
       (reference "C8") (unit 1) (value "104") (footprint "")
@@ -663,8 +663,8 @@
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d7ff11f1-9ba3-48a8-b392-f827773e8cf2"
       (reference "IC1") (unit 1) (value "ESP32-WROVER-B__8MB_") (footprint "ESP32-WROVER-B__16MB_:XCVR_ESP32-WROVER-B_(16MB)")
     )
-    (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/11991380-bb17-440d-afe9-cc63c353105e"
-      (reference "J1") (unit 1) (value "~") (footprint "")
+    (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/212ae75f-d3f2-4669-9ae9-7c28512b306b"
+      (reference "J1") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/d8609417-ed01-4857-9622-08c7dd58c715"
       (reference "J2") (unit 1) (value "Conn_01x02_Male") (footprint "")
@@ -687,11 +687,11 @@
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/00000000-0000-0000-0000-000063332922"
       (reference "J8") (unit 1) (value "RJ45") (footprint "")
     )
-    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/b60987bf-d349-4c77-9402-ced3b291a092"
-      (reference "J9") (unit 1) (value "Conn_01x05") (footprint "")
+    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/2c5a8a36-7e69-4471-bccb-2fef52e8fdb9"
+      (reference "J9") (unit 1) (value "Conn_02x06_Counter_Clockwise") (footprint "HUELLA SIM800L:sim800l")
     )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/c8d10ece-e991-481e-9f25-b4643760e736"
-      (reference "J10") (unit 1) (value "Conn_01x08") (footprint "")
+      (reference "J10") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/ada8fd38-5bc2-4364-b7a9-5c478e9778d1"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -700,10 +700,10 @@
       (reference "JP2") (unit 1) (value "Jumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/537d68d9-3ae4-498a-b4bc-af07420fd53a"
-      (reference "Q1") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "BC847") (footprint "BC847:SOT23")
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/b9772557-ab89-49cb-95d4-3d0b8621aee8"
-      (reference "Q2") (unit 1) (value "BC847") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q2") (unit 1) (value "BC847") (footprint "BC847:SOT23")
     )
     (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/e5b338ff-1a68-4fc4-a7c5-5868b3b1bb85"
       (reference "Q3") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -772,10 +772,10 @@
       (reference "R12") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/59dfc62d-b2ce-4c40-b1bc-a835bae2c605"
-      (reference "R13") (unit 1) (value "10k") (footprint "")
+      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/d811644f-126a-4254-85ba-a5ad3fc5423e"
-      (reference "R14") (unit 1) (value "10k") (footprint "")
+      (reference "R14") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/7ab9cb54-b83f-4986-88b1-5139b9e39300"
       (reference "R15") (unit 1) (value "1K") (footprint "")
@@ -826,13 +826,13 @@
       (reference "RV1") (unit 1) (value "10K") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/bf2fd736-d97a-4929-beff-0ae854c92f43"
-      (reference "SW1") (unit 1) (value "SW_Reset") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_Reset") (footprint "PULSADOR:pulsador")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/98b4f046-6768-4ae2-81aa-dbcfff0dac71"
-      (reference "SW2") (unit 1) (value "SW_Boot") (footprint "")
+      (reference "SW2") (unit 1) (value "SW_Boot") (footprint "PULSADOR:pulsador")
     )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/8f700339-c9dd-4565-bc82-3d26ce7b2743"
-      (reference "U1") (unit 1) (value "~") (footprint "")
+      (reference "U1") (unit 1) (value "~") (footprint "CP2104:QFN50P400X400X80-25N")
     )
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/4186dce2-6fa5-4e12-a42f-3f810169d21c"
       (reference "U2") (unit 1) (value "LM358") (footprint "")
