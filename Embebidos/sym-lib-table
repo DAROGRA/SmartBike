@@ -1,6 +1,6 @@
 (sym_lib_table
-  (lib (name "SS34")(type "Legacy")(uri "C:/Users/unida/Documents/importado embebidos/LIB_SS34/SS34/KiCad/SS34.lib")(options "")(descr ""))
-  (lib (name "TP4056")(type "Legacy")(uri "C:/Users/unida/Documents/importado embebidos/TP4056/TP4056.lib")(options "")(descr ""))
   (lib (name "DMP3056LSD-13")(type "Legacy")(uri "${KIPRJMOD}/Libs/LIB_DMP3056LSD-13/DMP3056LSD-13/KiCad/DMP3056LSD-13.lib")(options "")(descr ""))
   (lib (name "FDT434P")(type "Legacy")(uri "${KIPRJMOD}/Libs/LIB_FDT434P/FDT434P/KiCad/FDT434P.lib")(options "")(descr ""))
+  (lib (name "DMP3056LSDQ-13")(type "Legacy")(uri "${KIPRJMOD}/Libs/ElBonito/DMP3056LSDQ-13.lib")(options "")(descr ""))
+  (lib (name "ESP32-WROVER-B__16MB_")(type "Legacy")(uri "${KIPRJMOD}/Libs/ESP32-WROVER-B__16MB_/ESP32-WROVER-B__16MB_.lib")(options "")(descr ""))
 )

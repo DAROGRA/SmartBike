@@ -656,10 +656,10 @@
       (reference "D2") (unit 1) (value "LED_HW") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/eff1643e-1700-4d04-9e5b-906bea3f1134"
-      (reference "D3") (unit 1) (value "Power LED") (footprint "")
+      (reference "D3") (unit 1) (value "Power LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/9ce37f5d-4ced-4e2d-a6bd-e720d1623000"
-      (reference "D4") (unit 1) (value "Detection LED") (footprint "")
+      (reference "D4") (unit 1) (value "Detection LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d7ff11f1-9ba3-48a8-b392-f827773e8cf2"
       (reference "IC1") (unit 1) (value "ESP32-WROVER-B__8MB_") (footprint "ESP32-WROVER-B__16MB_:XCVR_ESP32-WROVER-B_(16MB)")
