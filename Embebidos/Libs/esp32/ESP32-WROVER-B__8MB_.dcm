@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESP32-WROVER-B__8MB_
+D WiFi Modules (802.11) SMD Module M213DH6464PH3Q0, ESP32-D0WD, 64Mbits PSRAM, 8MB SPI flash, PCB Antenna
+K
+F https://eu.mouser.com/datasheet/2/891/esp32-wrover-b_datasheet_en-1384674.pdf
+$ENDCMP
+#
+#End Doc Library

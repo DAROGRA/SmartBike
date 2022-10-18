@@ -832,7 +832,7 @@
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/88d00d85-45cc-430a-a61f-4b7ae6be4610"
       (reference "RV1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical")
     )
-    (path "/e1535036-5d36-405f-bb86-3819621c4f23/bf2fd736-d97a-4929-beff-0ae854c92f43"
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/791e62c7-586a-455d-a8c6-e1b6efacee88"
       (reference "SW1") (unit 1) (value "SW_Reset") (footprint "PULSADOR:pulsador")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/98b4f046-6768-4ae2-81aa-dbcfff0dac71"
