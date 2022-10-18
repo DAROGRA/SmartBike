@@ -954,7 +954,7 @@
   )
 
   (text "Recordar: Conectar RX_CP al TX del módulo CP2104\n¿Hay problema con tener el Boot en el mismo GPIO0 que usa CP2104?"
-    (at 86.36 194.31 0)
+    (at 86.36 194.31 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1dec3524-2687-4472-9fc4-b5f28578041f)
   )
