@@ -8,6 +8,7 @@
   )
 
 
+
   (wire (pts (xy 219.71 96.52) (xy 219.71 119.38))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 02f44c98-ee31-4aa8-af52-f5fcd9dd5081)
@@ -625,7 +626,7 @@
       (reference "C11") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/d13e6b54-b8c7-4c32-bd8f-a5ab92c37b48"
-      (reference "C12") (unit 1) (value "100u") (footprint "")
+      (reference "C12") (unit 1) (value "100u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/e54509d2-25c2-432b-896c-deb582dce5b9"
       (reference "C13") (unit 1) (value "4.7u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder")
@@ -634,19 +635,19 @@
       (reference "C14") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/a03c2b30-48fe-4d16-a726-60177bf460a2"
-      (reference "C15") (unit 1) (value "330u") (footprint "")
+      (reference "C15") (unit 1) (value "330u") (footprint "Capacitor_SMD:CP_Elec_8x10.5")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/0d1f3cdb-ddc7-432c-81b7-220d04c08ea6"
       (reference "C16") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/55e8fdb6-200e-4de9-ba1b-3a737aaa80ec"
-      (reference "C17") (unit 1) (value "100n") (footprint "")
+      (reference "C17") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/e4d3e0a4-6f39-4d37-bd7d-1d39c8cd7a3a"
-      (reference "C18") (unit 1) (value "470p") (footprint "")
+      (reference "C18") (unit 1) (value "470p") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/66650572-4c7e-4c10-b9e5-653731ee077b"
-      (reference "C19") (unit 1) (value "2.2u") (footprint "")
+      (reference "C19") (unit 1) (value "2.2u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/ba412eb5-13bb-4cbc-b2d7-7f2ddb11dbbd"
       (reference "D1") (unit 1) (value "LED_ON") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
@@ -831,11 +832,11 @@
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/c40f95ce-95c9-43c6-aef2-9d60b8f3da73"
       (reference "U3") (unit 1) (value "SPX3819M5-L-3-3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
-    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/15d46b7e-438e-4017-936e-9a2fba6b1382"
-      (reference "U4") (unit 1) (value "MIC29302WT") (footprint "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerEven_Lead3.8mm_Vertical")
-    )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/78472f2d-68f4-49c3-a4da-a2495939f54c"
       (reference "U5") (unit 1) (value "MIC5219-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/fc8ce282-2c0e-47e2-b439-369bb3d2ac3c"
+      (reference "U10") (unit 1) (value "MIC29302WU") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
   )
 )
