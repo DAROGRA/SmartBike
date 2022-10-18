@@ -1053,7 +1053,7 @@
   (symbol (lib_id "Connector:RJ45") (at 111.76 91.44 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063332922)
-    (property "Reference" "J8" (id 0) (at 120.142 91.5416 0)
+    (property "Reference" "J4" (id 0) (at 120.142 91.5416 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "RJ45" (id 1) (at 120.142 93.853 0)

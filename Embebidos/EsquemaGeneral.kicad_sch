@@ -671,16 +671,16 @@
       (reference "J2") (unit 1) (value "Conn_01x02_Male") (footprint "")
     )
     (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/00000000-0000-0000-0000-0000633bb328"
-      (reference "J7") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
+      (reference "J3") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/00000000-0000-0000-0000-000063332922"
-      (reference "J8") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
+      (reference "J4") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/2c5a8a36-7e69-4471-bccb-2fef52e8fdb9"
-      (reference "J9") (unit 1) (value "Conn_02x06_Counter_Clockwise") (footprint "HUELLA SIM800L:sim800l")
+      (reference "J5") (unit 1) (value "Conn_02x06_Counter_Clockwise") (footprint "HUELLA SIM800L:sim800l")
     )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/c8d10ece-e991-481e-9f25-b4643760e736"
-      (reference "J10") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+      (reference "J6") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/ada8fd38-5bc2-4364-b7a9-5c478e9778d1"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -832,6 +832,12 @@
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/c40f95ce-95c9-43c6-aef2-9d60b8f3da73"
       (reference "U3") (unit 1) (value "SPX3819M5-L-3-3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
+<<<<<<< HEAD
+=======
+    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/fc8ce282-2c0e-47e2-b439-369bb3d2ac3c"
+      (reference "U4") (unit 1) (value "MIC29302WU") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+    )
+>>>>>>> 51302eca723b0b0fd35f86ce7f063e33ac35bbdd
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/78472f2d-68f4-49c3-a4da-a2495939f54c"
       (reference "U5") (unit 1) (value "MIC5219-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )

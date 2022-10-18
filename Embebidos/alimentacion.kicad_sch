@@ -1500,7 +1500,11 @@
   (symbol (lib_id "Regulator_Linear:MIC29302WU") (at 96.52 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fc8ce282-2c0e-47e2-b439-369bb3d2ac3c)
+<<<<<<< HEAD
     (property "Reference" "U10" (id 0) (at 96.52 132.08 0))
+=======
+    (property "Reference" "U4" (id 0) (at 96.52 132.08 0))
+>>>>>>> 51302eca723b0b0fd35f86ce7f063e33ac35bbdd
     (property "Value" "" (id 1) (at 96.52 134.62 0))
     (property "Footprint" "" (id 2) (at 99.06 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
