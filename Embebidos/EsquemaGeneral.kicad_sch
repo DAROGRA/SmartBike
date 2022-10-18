@@ -610,9 +610,6 @@
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/ae7fbaad-b049-490b-ba63-d466ca9a74c1"
       (reference "#PWR047") (unit 1) (value "GND") (footprint "")
     )
-    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/6fd4dd30-e2dc-41aa-85a9-0b88b30ce2f1"
-      (reference "#PWR048") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d81047d0-6c1b-4589-b37f-eb5534216b82"
       (reference "C1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -689,7 +686,7 @@
       (reference "J1") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/d8609417-ed01-4857-9622-08c7dd58c715"
-      (reference "J2") (unit 1) (value "Conn_01x02_Male") (footprint "")
+      (reference "J2") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/cd927c7d-f6a9-462d-a91d-0ad50e16c83a/00000000-0000-0000-0000-0000633bb328"
       (reference "J3") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
@@ -698,7 +695,7 @@
       (reference "J4") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/4abece8a-2758-4f65-81ae-5204265fd0fb"
-      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "")
+      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/2c5a8a36-7e69-4471-bccb-2fef52e8fdb9"
       (reference "J6") (unit 1) (value "Conn_02x06_Counter_Clockwise") (footprint "HUELLA SIM800L:sim800l")
@@ -835,7 +832,7 @@
     (path "/d06b1486-3743-4568-bb86-22a0f801ae16/88d00d85-45cc-430a-a61f-4b7ae6be4610"
       (reference "RV1") (unit 1) (value "10K") (footprint "Potentiometer_THT:Potentiometer_Bourns_3386P_Vertical")
     )
-    (path "/e1535036-5d36-405f-bb86-3819621c4f23/bf2fd736-d97a-4929-beff-0ae854c92f43"
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/791e62c7-586a-455d-a8c6-e1b6efacee88"
       (reference "SW1") (unit 1) (value "SW_Reset") (footprint "PULSADOR:pulsador")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/98b4f046-6768-4ae2-81aa-dbcfff0dac71"

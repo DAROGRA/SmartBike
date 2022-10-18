@@ -571,7 +571,6 @@
     )
   )
 
-
   (junction (at 195.58 81.28) (diameter 0) (color 0 0 0 0)
     (uuid 01f804f3-d78d-4eed-bef6-93021a3abd8c)
   )
@@ -1431,9 +1430,9 @@
   (symbol (lib_id "Connector:Conn_01x02_Male") (at 37.465 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d8609417-ed01-4857-9622-08c7dd58c715)
-    (property "Reference" "J2" (id 0) (at 38.1 133.985 0))
-    (property "Value" "Conn_01x02_Male" (id 1) (at 38.1 136.525 0))
-    (property "Footprint" "" (id 2) (at 37.465 139.7 0)
+    (property "Reference" "J2" (id 0) (at 38.1 134.62 0))
+    (property "Value" "Conn_01x02_Male" (id 1) (at 38.1 137.16 0))
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (id 2) (at 37.465 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 37.465 139.7 0)
