@@ -32,6 +32,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1a49e7dd-fd66-45df-85d8-824c7d8a8112)
   )
+  (wire (pts (xy 97.79 53.34) (xy 119.38 53.34))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 208ae946-1080-4c1c-a5e3-15ad8440a9a0)
+  )
   (wire (pts (xy 224.79 106.68) (xy 232.41 106.68))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2696ceb2-13ac-4688-8d8b-5cf21a31667d)
@@ -160,6 +164,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cbca1168-78b7-4327-8481-48a46ea1b85a)
   )
+  (wire (pts (xy 97.79 57.15) (xy 119.38 57.15))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid cf6a6064-d6f3-43ce-9d9f-900ac17eb89b)
+  )
   (wire (pts (xy 163.83 120.65) (xy 167.64 120.65))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d1899256-d9ad-4bba-a7c2-98a1a6b7ecb9)
@@ -214,6 +222,14 @@
     (pin "SCK_RFID" input (at 97.79 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e9c68e28-7ec1-4ef8-b020-78f0f5361b73)
+    )
+    (pin "RXGPS" bidirectional (at 97.79 53.34 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid a4976a30-df62-4cd9-90bc-f5ea8b749a0f)
+    )
+    (pin "TXGPS" bidirectional (at 97.79 57.15 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 31240e0e-eafc-41c9-aaed-d2528bdaecfb)
     )
   )
 
@@ -582,14 +598,20 @@
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/bea0f267-b151-46aa-b051-25b0f1216c7a"
       (reference "#PWR043") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/1244af27-4b3c-42b8-85ab-98db9fb77044"
-      (reference "#PWR044") (unit 1) (value "GND") (footprint "")
+    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/ad6f4c1a-d8cc-4fb8-9865-093fabce148f"
+      (reference "#PWR044") (unit 1) (value "+3.3V") (footprint "")
     )
-    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/ae7fbaad-b049-490b-ba63-d466ca9a74c1"
+    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/aa81c325-1672-43f8-833f-1c432d51fc29"
       (reference "#PWR045") (unit 1) (value "GND") (footprint "")
     )
+    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/1244af27-4b3c-42b8-85ab-98db9fb77044"
+      (reference "#PWR046") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/ae7fbaad-b049-490b-ba63-d466ca9a74c1"
+      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/6fd4dd30-e2dc-41aa-85a9-0b88b30ce2f1"
-      (reference "#PWR046") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR048") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d81047d0-6c1b-4589-b37f-eb5534216b82"
       (reference "C1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -675,11 +697,14 @@
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/00000000-0000-0000-0000-000063332922"
       (reference "J4") (unit 1) (value "RJ45") (footprint "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal")
     )
+    (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/4abece8a-2758-4f65-81ae-5204265fd0fb"
+      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "")
+    )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/2c5a8a36-7e69-4471-bccb-2fef52e8fdb9"
-      (reference "J5") (unit 1) (value "Conn_02x06_Counter_Clockwise") (footprint "HUELLA SIM800L:sim800l")
+      (reference "J6") (unit 1) (value "Conn_02x06_Counter_Clockwise") (footprint "HUELLA SIM800L:sim800l")
     )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/c8d10ece-e991-481e-9f25-b4643760e736"
-      (reference "J6") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
+      (reference "J7") (unit 1) (value "Conn_01x08") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/ada8fd38-5bc2-4364-b7a9-5c478e9778d1"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
