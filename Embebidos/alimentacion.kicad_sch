@@ -571,6 +571,12 @@
     )
   )
 
+<<<<<<< Updated upstream
+=======
+  (junction (at 114.3 139.065) (diameter 0) (color 0 0 0 0)
+    (uuid 01637482-9c27-41dc-8a34-f5e5e56c9a09)
+  )
+>>>>>>> Stashed changes
   (junction (at 195.58 81.28) (diameter 0) (color 0 0 0 0)
     (uuid 01f804f3-d78d-4eed-bef6-93021a3abd8c)
   )
@@ -1181,6 +1187,7 @@
   (symbol (lib_id "Device:C") (at 72.39 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6e0dc09e-edeb-4109-9ddb-db3b0f6e2232)
+<<<<<<< Updated upstream
     (property "Reference" "C2" (id 0) (at 76.2 149.8599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1188,6 +1195,15 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 73.3552 154.94 0)
+=======
+    (property "Reference" "C14" (id 0) (at 76.2 144.1449 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1u" (id 1) (at 76.2 146.6849 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 73.9902 149.225 0)
+>>>>>>> Stashed changes
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 72.39 151.13 0)
