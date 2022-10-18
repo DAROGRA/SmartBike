@@ -1069,7 +1069,7 @@
   (symbol (lib_id "Connector:RJ45") (at 167.64 93.98 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000633bb328)
-    (property "Reference" "J7" (id 0) (at 169.0878 77.0382 0))
+    (property "Reference" "J3" (id 0) (at 169.0878 77.0382 0))
     (property "Value" "RJ45" (id 1) (at 169.0878 79.3496 0))
     (property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" (id 2) (at 167.64 93.345 90)
       (effects (font (size 1.27 1.27)) hide)
