@@ -364,7 +364,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "../../../../",
+<<<<<<< HEAD
       "specctra_dsn": "../../EsquemaGeneral.dsn",
+=======
+      "specctra_dsn": "../../../../Desktop/EsquemaGeneral.dsn",
+>>>>>>> a36a28d040491c32de2f12e636b048ea88c84d70
       "step": "",
       "vrml": ""
     },
