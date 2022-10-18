@@ -8,7 +8,6 @@
   )
 
 
-
   (wire (pts (xy 219.71 96.52) (xy 219.71 119.38))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 02f44c98-ee31-4aa8-af52-f5fcd9dd5081)
@@ -857,17 +856,11 @@
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/c40f95ce-95c9-43c6-aef2-9d60b8f3da73"
       (reference "U3") (unit 1) (value "SPX3819M5-L-3-3") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
-<<<<<<< HEAD
-=======
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/fc8ce282-2c0e-47e2-b439-369bb3d2ac3c"
       (reference "U4") (unit 1) (value "MIC29302WU") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
->>>>>>> 51302eca723b0b0fd35f86ce7f063e33ac35bbdd
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/78472f2d-68f4-49c3-a4da-a2495939f54c"
       (reference "U5") (unit 1) (value "MIC5219-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
-    )
-    (path "/dbd907f8-459e-4808-a4de-1506df10bcec/fc8ce282-2c0e-47e2-b439-369bb3d2ac3c"
-      (reference "U10") (unit 1) (value "MIC29302WU") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
   )
 )
