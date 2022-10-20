@@ -1,0 +1,90 @@
+
+(rules PCB EsquemaGeneral
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 844)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    +3.3V GND /Acondicionamiento/RESET /Acondicionamiento/GPIO0 "Net-(C7-Pad1)" 3.3Vop2 "Net-(C9-Pad1)" +5V
+    "Net-(C11-Pad1)" 4.1V "Net-(C18-Pad1)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)" "/Acondicionamiento/LDR_IN" "Net-(D4-Pad2)"
+    "/Acondicionamiento/LFT_stk" "/Acondicionamiento/UP_stk" "/Acondicionamiento/RHT_stk" "/Acondicionamiento/Din_izq" "/Acondicionamiento/VO_Inf" /Acondicionamiento/GPIO25 /Acondicionamiento/GPIO26 /Acondicionamiento/GPIO27
+    /Acondicionamiento/GPIO14 CtrlOnOff "Net-(IC1-Pad16)" "unconnected-(IC1-Pad17)" "unconnected-(IC1-Pad18)" "unconnected-(IC1-Pad19)" "unconnected-(IC1-Pad20)" "unconnected-(IC1-Pad21)"
+    "unconnected-(IC1-Pad22)" "/Acondicionamiento/Din_der" "/Acondicionamiento/ctr_led_delantero" "/Acondicionamiento/ctr_trasero" "unconnected-(IC1-Pad27)" "unconnected-(IC1-Pad28)" "/Acondicionamiento/CS_RFID" "/Acondicionamiento/SCK_RFID"
+    "/Acondicionamiento/MISO_RFID" "unconnected-(IC1-Pad32)" "/Acondicionamiento/SDA_PAN" "Net-(IC1-Pad34)" "Net-(IC1-Pad35)" "/Acondicionamiento/SCL_PAN" "/Acondicionamiento/MOSI_RFID" "unconnected-(IC1-Pad38)"
+    "unconnected-(IC1-Pad39)" "unconnected-(IC1-Pad40)" "unconnected-(IC1-Pad41)" "unconnected-(IC1-Pad42)" "unconnected-(IC1-Pad43)" "unconnected-(IC1-Pad44)" "unconnected-(IC1-Pad45)" "unconnected-(IC1-Pad46)"
+    "unconnected-(IC1-Pad47)" VBUS "/USB_UART/D-" "/USB_UART/D+" "Net-(J3-Pad2)" "Net-(J3-Pad3)" "Net-(J3-Pad4)" "/luces delanteras/VCC_FRONT"
+    "Net-(J4-Pad1)" "/Luces traseras/VCC_LEDS" "/Luces traseras/VCC_INF" "Net-(J4-Pad6)" "unconnected-(J4-Pad7)" "unconnected-(J4-Pad8)" /Acondicionamiento/TXGPS /Acondicionamiento/RXGPS
+    "unconnected-(J5-Pad1)" "unconnected-(J5-Pad3)" /Acondicionamiento/RXSIM /Acondicionamiento/TXSIM "unconnected-(J6-Pad7)" "unconnected-(J5-Pad7)" "unconnected-(J5-Pad8)" "unconnected-(J5-Pad9)"
+    "unconnected-(J5-Pad10)" "unconnected-(J5-Pad11)" ctrSIM "Net-(JP2-Pad2)" "/USB_UART/DTR" "Net-(Q1-Pad1)" "/USB_UART/RTS" "Net-(Q2-Pad1)"
+    "Net-(Q3-Pad1)" "Net-(Q3-Pad3)" "unconnected-(Q4-Pad3)" "unconnected-(Q4-Pad4)" "unconnected-(Q4-Pad5)" "Net-(Q5-Pad1)" "Net-(Q5-Pad3)" /Acondicionamiento/TXCP
+    /Acondicionamiento/RXCP "Net-(R19-Pad2)" "Net-(RV1-Pad2)" "unconnected-(U1-Pad1)" "unconnected-(U1-Pad9)" "unconnected-(U1-Pad10)" "unconnected-(U1-Pad11)" "unconnected-(U1-Pad12)"
+    "unconnected-(U1-Pad13)" "unconnected-(U1-Pad14)" "unconnected-(U1-Pad15)" "unconnected-(U1-Pad17)" "unconnected-(U1-Pad18)" "unconnected-(U1-Pad22)" "unconnected-(U1-Pad24)" "unconnected-(U2-Pad5)"
+    "unconnected-(U2-Pad6)" "unconnected-(U2-Pad7)" "unconnected-(J5-Pad12)" "unconnected-(J6-Pad5)"
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
