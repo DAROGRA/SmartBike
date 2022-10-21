@@ -239,7 +239,7 @@
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::24
       (place R10 154020.000000 -88000.000000 front -90.000000 (PN 470))
     )
-    (component "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder"
+    (component "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder::1"
       (place C19 87340.000000 -103212.500000 front 90.000000 (PN 2.2u))
     )
     (component Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::25
@@ -1736,18 +1736,18 @@
       (pin RoundRect[T]Pad_1200x1400_250.951_um_0.000000_0 1 -1000 0)
       (pin RoundRect[T]Pad_1200x1400_250.951_um_0.000000_0 2 1000 0)
     )
-    (image "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder"
-      (outline (path signal 120  -2485 -935  1600 -935))
+    (image "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder::1"
       (outline (path signal 120  -2485 935  -2485 -935))
       (outline (path signal 120  1600 935  -2485 935))
-      (outline (path signal 50  -2480 1050  2480 1050))
-      (outline (path signal 50  2480 1050  2480 -1050))
-      (outline (path signal 50  -2480 -1050  -2480 1050))
+      (outline (path signal 120  -2485 -935  1600 -935))
       (outline (path signal 50  2480 -1050  -2480 -1050))
-      (outline (path signal 100  -1600 -800  1600 -800))
-      (outline (path signal 100  -1600 400  -1600 -800))
-      (outline (path signal 100  1600 800  -1200 800))
+      (outline (path signal 50  -2480 1050  2480 1050))
+      (outline (path signal 50  -2480 -1050  -2480 1050))
+      (outline (path signal 50  2480 1050  2480 -1050))
       (outline (path signal 100  1600 -800  1600 800))
+      (outline (path signal 100  -1600 -800  1600 -800))
+      (outline (path signal 100  1600 800  -1200 800))
+      (outline (path signal 100  -1600 400  -1600 -800))
       (outline (path signal 100  -1200 800  -1600 400))
       (pin RoundRect[T]Pad_1575x1350_250.951_um_0.000000_0 1 -1437.5 0)
       (pin RoundRect[T]Pad_1575x1350_250.951_um_0.000000_0 2 1437.5 0)
