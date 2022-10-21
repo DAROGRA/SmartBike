@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 844)
+    (start_pass_no 882)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -40,11 +40,44 @@
     )
     (attach off)
   )
+  (padstack "Via[0-1]_1100:500_um"
+    (shape
+      (circle F.Cu 1100.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1100.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1100:500_um" "Via[0-1]_1100:500_um" default
+  )
+  (via 
+    "Via[0-1]_1100:500_um-kicad_default" "Via[0-1]_1100:500_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_800:400_um-Señales" "Via[0-1]_800:400_um" Señales
+  )
+  (via 
+    "Via[0-1]_1100:500_um-Señales" "Via[0-1]_1100:500_um" Señales
+  )
+  (via 
+    "Via[0-1]_800:400_um-potencia" "Via[0-1]_800:400_um" potencia
+  )
+  (via 
+    "Via[0-1]_1100:500_um-potencia" "Via[0-1]_1100:500_um" potencia
+  )
   (via 
     "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
   )
   (via 
     "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    Señales "Via[0-1]_800:400_um-Señales"
+  )
+  (via_rule
+    potencia "Via[0-1]_1100:500_um-potencia"
   )
   (via_rule
     default "Via[0-1]_800:400_um"
@@ -82,6 +115,26 @@
     (via_rule kicad_default)
     (rule
       (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Señales
+    (clearance_class Señales)
+    (via_rule Señales)
+    (rule
+      (width 600.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class potencia
+    (clearance_class potencia)
+    (via_rule potencia)
+    (rule
+      (width 1000.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
