@@ -671,7 +671,7 @@
       (reference "C18") (unit 1) (value "470p") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/dbd907f8-459e-4808-a4de-1506df10bcec/66650572-4c7e-4c10-b9e5-653731ee077b"
-      (reference "C19") (unit 1) (value "2.2u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder")
+      (reference "C19") (unit 1) (value "2.2u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/ba412eb5-13bb-4cbc-b2d7-7f2ddb11dbbd"
       (reference "D1") (unit 1) (value "LED_ON") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
