@@ -875,7 +875,7 @@
   (symbol (lib_id "Transistor_BJT:BC847") (at 196.85 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 537d68d9-3ae4-498a-b4bc-af07420fd53a)
-    (property "Reference" "Q1" (id 0) (at 201.93 88.8999 0)
+    (property "Reference" "Q9" (id 0) (at 201.93 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC847" (id 1) (at 201.93 91.4399 0)

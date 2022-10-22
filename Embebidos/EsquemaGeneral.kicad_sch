@@ -715,9 +715,6 @@
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/578d721e-fc0d-4bcb-96fc-a0c01b1b0015"
       (reference "JP2") (unit 1) (value "Jumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/537d68d9-3ae4-498a-b4bc-af07420fd53a"
-      (reference "Q1") (unit 1) (value "BC847") (footprint "BC847:SOT23")
-    )
     (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/b9772557-ab89-49cb-95d4-3d0b8621aee8"
       (reference "Q2") (unit 1) (value "BC847") (footprint "BC847:SOT23")
     )
@@ -738,6 +735,9 @@
     )
     (path "/a2241792-1ad9-466d-8b0b-7fd934e95c7c/da1c119d-ba45-40b0-80cb-4bff73749c23"
       (reference "Q6") (unit 2) (value "DMP3056LSDQ-13") (footprint "DMP3056LSD:SOIC127P600X175-8N")
+    )
+    (path "/cc31ce4a-ad9b-4479-bbdf-beeab98489e8/537d68d9-3ae4-498a-b4bc-af07420fd53a"
+      (reference "Q9") (unit 1) (value "BC847") (footprint "BC847:SOT23")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/55552316-eba6-4d9e-a3f8-1729b8722f94"
       (reference "R1") (unit 1) (value "470") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
