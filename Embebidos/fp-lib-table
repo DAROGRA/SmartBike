@@ -9,4 +9,5 @@
   (lib (name "PINES SIM800L")(type "KiCad")(uri "${KIPRJMOD}/Libs/PINES SIM800L")(options "")(descr ""))
   (lib (name "HUELLA SIM800L")(type "KiCad")(uri "${KIPRJMOD}/Libs/HUELLA SIM800L.pretty")(options "")(descr ""))
   (lib (name "esp32")(type "KiCad")(uri "${KIPRJMOD}/Libs/esp32")(options "")(descr ""))
+  (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/Libs/Logo")(options "")(descr ""))
 )
