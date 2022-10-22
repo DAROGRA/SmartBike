@@ -410,8 +410,6 @@
           "/USB_UART/DTR",
           "CtrlOnOff",
           "Net-(IC1-Pad16)",
-          "Net-(IC1-Pad34)",
-          "Net-(IC1-Pad35)",
           "Net-(J3-Pad2)",
           "Net-(J3-Pad3)",
           "Net-(J3-Pad4)",

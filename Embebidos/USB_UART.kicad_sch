@@ -6,13 +6,13 @@
 
   (lib_symbols
     (symbol "Connector:USB_A" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (id 0) (at -5.08 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Reference" "J1" (id 0) (at 0 12.7 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "USB_A" (id 1) (at -5.08 8.89 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "USB_A" (id 1) (at 0 10.16 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (id 2) (at 3.81 -1.27 0)
+      (property "Footprint" "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" (id 2) (at 3.81 -1.27 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" " ~" (id 3) (at 3.81 -1.27 0)
@@ -108,7 +108,7 @@
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (pin power_in line (at 7.62 5.08 180) (length 2.54)
+        (pin power_out line (at 7.62 5.08 180) (length 2.54)
           (name "VBUS" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -574,6 +574,7 @@
       )
     )
   )
+
 
   (junction (at 91.44 129.54) (diameter 0) (color 0 0 0 0)
     (uuid 4670c880-e8b4-412c-a485-6d6f5a9227f4)

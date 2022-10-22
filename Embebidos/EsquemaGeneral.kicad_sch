@@ -616,6 +616,9 @@
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/ae7fbaad-b049-490b-ba63-d466ca9a74c1"
       (reference "#PWR049") (unit 1) (value "GND") (footprint "")
     )
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/7aac390f-253e-40d3-ae2a-6e91a7653513"
+      (reference "#PWR050") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/d81047d0-6c1b-4589-b37f-eb5534216b82"
       (reference "C1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -708,6 +711,9 @@
     )
     (path "/0ac5ab50-bd93-457a-bd05-7658d2927281/4abece8a-2758-4f65-81ae-5204265fd0fb"
       (reference "J7") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical")
+    )
+    (path "/e1535036-5d36-405f-bb86-3819621c4f23/c1e4bdbb-e127-422d-8388-fb7c75f862ef"
+      (reference "J8") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/e1535036-5d36-405f-bb86-3819621c4f23/ada8fd38-5bc2-4364-b7a9-5c478e9778d1"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
