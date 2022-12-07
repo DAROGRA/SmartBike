@@ -1,2 +1,2 @@
 # SmartBike
- Proyecto Sistemas Embebidos
+ Proyecto Sistemas Embebidos, para mayor informacion visita la Wiki del proyecto
